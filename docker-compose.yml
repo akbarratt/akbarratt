@@ -1,0 +1,7 @@
+version: '3'
+services:
+    web:
+        build: ./
+        image: akbarratt/akbarratt
+        environment:
+            VIRTUAL_HOST: 'akbarratt.com,origin.akbarratt.com,www.akbarratt.com'
